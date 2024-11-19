@@ -1,8 +1,8 @@
 pipeline{
     agent any
 
-    environment{
-        IMAGE_NAME: 'gyanendranathshukla4035/test-app'
+    environment {
+        IMAGE_NAME = 'gyanendranathshukla4035/test-app'
     }
 
     stages{
