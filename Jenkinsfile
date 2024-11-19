@@ -22,7 +22,7 @@ pipeline{
                 }
             }
         }
-        stage('Push to Docker hub){
+        stage('Push to Docker hub'){
               steps {
                   script{
                       sh "docker login -u gyanendranathshukla4035 -p Prince2004"
